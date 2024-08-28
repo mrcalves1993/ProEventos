@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-@Component({ standalone : true,
+@Component({
   selector: 'app-palestrantes',
   templateUrl: './palestrantes.component.html',
   styleUrls: ['./palestrantes.component.scss']

@@ -1,11 +1,9 @@
 import { createRequire } from 'module';const require = createRequire(import.meta.url);
 import {
   BrowserModule,
+  DOCUMENT,
   DomRendererFactory2
-} from "./chunk-32ZH2GDL.js";
-import {
-  DOCUMENT
-} from "./chunk-ADPK4N2K.js";
+} from "./chunk-REUFAKTA.js";
 import {
   ANIMATION_MODULE_TYPE,
   Inject,
@@ -4527,4 +4525,4 @@ export {
    * License: MIT
    *)
 */
-//# sourceMappingURL=chunk-GLIE7I44.js.map
+//# sourceMappingURL=chunk-ZWFEGJTE.js.map
