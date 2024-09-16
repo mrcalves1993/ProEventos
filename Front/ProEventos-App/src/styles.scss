@@ -2,3 +2,12 @@
 @import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 @import '../node_modules/ngx-bootstrap/datepicker/bs-datepicker.css';
 @import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+@import '../node_modules/bootswatch/dist/cosmo/bootstrap.min.css';
+
+a {
+  text-decoration: none !important; // !important = Programa dará preferência para o atributo que tiver essa observação
+}
+
+a:hover{
+  text-decoration: underline !important;
+}
