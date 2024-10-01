@@ -4,12 +4,12 @@ import {
   Utils,
   document as document2,
   win
-} from "./chunk-FATHCKDL.js";
+} from "./chunk-I5XSWPAZ.js";
 import {
   CommonModule,
   DOCUMENT,
   isPlatformBrowser
-} from "./chunk-IO54BLQI.js";
+} from "./chunk-7MQGTE46.js";
 import {
   Component,
   Directive,
@@ -46,7 +46,8 @@ import {
   ɵɵprojection,
   ɵɵprojectionDef,
   ɵɵresolveWindow
-} from "./chunk-2ARNJPK3.js";
+} from "./chunk-7TNC72CN.js";
+import "./chunk-WDMUDEB6.js";
 
 // node_modules/ngx-bootstrap/focus-trap/fesm2022/ngx-bootstrap-focus-trap.mjs
 var _FocusTrapManager = class _FocusTrapManager {
