@@ -1,7 +1,7 @@
 import {
   DOCUMENT,
   isPlatformBrowser
-} from "./chunk-7MQGTE46.js";
+} from "./chunk-SZ3JWJEB.js";
 import {
   ApplicationRef,
   ComponentFactoryResolver$1,
@@ -13,17 +13,19 @@ import {
   NgZone,
   PLATFORM_ID,
   RendererFactory2,
-  Subject,
   TemplateRef,
   animationFrameScheduler,
   fromEvent,
   isDevMode,
   merge,
-  of,
   setClassMetadata,
   ɵɵdefineInjectable,
   ɵɵinject
-} from "./chunk-7TNC72CN.js";
+} from "./chunk-WESPPLEV.js";
+import {
+  Subject,
+  of
+} from "./chunk-LMI4PKWB.js";
 import {
   __spreadProps,
   __spreadValues
@@ -1435,4 +1437,4 @@ ngx-bootstrap/utils/fesm2022/ngx-bootstrap-utils.mjs:
    * found in the LICENSE file at https://angular.io/license
    *)
 */
-//# sourceMappingURL=chunk-I5XSWPAZ.js.map
+//# sourceMappingURL=chunk-64BARASZ.js.map

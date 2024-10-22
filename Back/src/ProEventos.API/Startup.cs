@@ -28,7 +28,7 @@ namespace ProEventos.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<ProEventosContext>(
-                context => context.UseSqlite(Configuration.GetConnectionString("Default")) // ESSE DEFULT ESTÁ DECLARADO EM appsettings.Development.json
+                context => context.UseSqlite(Configuration.GetConnectionString("Default")) // ESSE DEFAULT ESTÁ DECLARADO EM appsettings.Development.json
             );
             services.AddControllers()
                     .AddNewtonsoftJson(x => x.SerializerSettings.ReferenceLoopHandling = 
@@ -38,8 +38,11 @@ namespace ProEventos.API
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
             services.AddScoped<IEventoService, EventoService>();
+            services.AddScoped<ILoteService, LoteService>();
+            
             services.AddScoped<IGeralPersist, GeralPersist>();
             services.AddScoped<IEventoPersist, EventoPersist>();
+            services.AddScoped<ILotePersist, LotePersist>();
 
 
             services.AddCors();
