@@ -24,8 +24,7 @@ import { environment } from '@environments/environment';
 @Component({
   selector: 'app-evento-detalhe',
   templateUrl: './evento-detalhe.component.html',
-  styleUrls: ['./evento-detalhe.component.scss'],
-  providers: [ DatePipe ]
+  styleUrls: ['./evento-detalhe.component.scss']
 })
 export class EventoDetalheComponent implements OnInit {
 
@@ -67,8 +66,7 @@ export class EventoDetalheComponent implements OnInit {
               private spinner: NgxSpinnerService,
               private toastr: ToastrService,
               private modalService: BsModalService,
-              private loteService: LoteService,
-              private datePipe: DatePipe)
+              private loteService: LoteService)
   {
     this.localeService.use('pt-br');
   }

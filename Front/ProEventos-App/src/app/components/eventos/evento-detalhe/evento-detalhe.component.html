@@ -34,7 +34,7 @@
             <label>Data e Hora</label>
             <input type="datetime" class="form-control"
             [ngClass]="cssValidator(f.dataEvento)"
-            value="{{evento.dataEvento | DateFormatPipe}}"
+            value="{{evento.dataEvento}}"
             bsDatepicker
             [bsConfig]="bsConfig"
              formControlName="dataEvento" placeholder="" [(ngModel)]="evento.dataEvento">
@@ -72,7 +72,7 @@
              formControlName="email" placeholder="E-mail" [(ngModel)]="evento.email">
             <div *ngIf="f.email.errors?.required && f.email.touched" class="invalid-feedback">
               E-mail é obrigatório.
-            </div> 
+            </div>
             <div *ngIf="f.email.errors?.email && f.email.touched" class="invalid-feedback">
               Deve ser um endereço de e-mail válido.
             </div>
