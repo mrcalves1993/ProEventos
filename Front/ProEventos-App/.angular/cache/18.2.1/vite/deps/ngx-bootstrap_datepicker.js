@@ -7,16 +7,16 @@ import {
   PositioningService
 } from "./chunk-KDT7JH6V.js";
 import {
+  NG_VALIDATORS,
+  NG_VALUE_ACCESSOR
+} from "./chunk-GK5OXPQX.js";
+import {
   animate,
   state,
   style,
   transition,
   trigger
 } from "./chunk-H2JGYY5H.js";
-import {
-  NG_VALIDATORS,
-  NG_VALUE_ACCESSOR
-} from "./chunk-GK5OXPQX.js";
 import {
   AsyncPipe,
   CommonModule,
